@@ -19,7 +19,7 @@
            sync-j="4" />
 
   <!-- AOSP Projects -->
-
+<project path=”android” name="maleant/android" />
   <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
